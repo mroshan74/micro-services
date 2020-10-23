@@ -1,0 +1,37 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "auth micro-service with typescript usage",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "author": "Muhammed Roshan",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cookie-session": "^2.0.41",
+    "@types/cors": "^2.8.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.36",
+    "@types/morgan": "^1.9.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node-dev": "^1.0.0"
+  }
+}
